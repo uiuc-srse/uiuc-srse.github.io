@@ -320,10 +320,21 @@ main > section:nth-child(even) {
   border-radius: var(--radius-md);
 }
 
-.faculty-grid strong {
+.faculty-grid__name {
   display: block;
-  color: var(--color-illini-blue);
   margin-bottom: 0.25rem;
+  color: var(--color-illini-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.faculty-grid__name:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.faculty-grid__name strong {
+  font-weight: 700;
 }
 
 .faculty-grid span {
